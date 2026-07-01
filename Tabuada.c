@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void main() {
+int main() {
     for (int i = 1; i < 11; i++) {
         printf("\n Tabuada do %d\n", i);
         for (int j = 1; j < 11; j++) {
@@ -8,4 +8,5 @@ void main() {
         }
         printf("\n");
     }
+    return 0;
 }
