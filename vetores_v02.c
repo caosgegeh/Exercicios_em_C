@@ -30,7 +30,7 @@ void lista_crescente(int *x) {
         } else {
 
             // esse for ira comparar todos os valores em ordem decrescente
-            for(int decres = *x; decres >= 0; decres--) {
+            for(int decres = *x; decres > 0; decres--) {
 
                 // esse if serve pra medir se o valor inserido é maior que algum valor da lista
                 // como você pode verificar a variavel 'decres' é subtraido 1, pq ela corresponde a quantidade de vetores e não ao indice deles e...
