@@ -1,0 +1,14 @@
+Saudações, enfim vim avisar que para compilar o código, você precisa de um compilador em C, eu uso clang como exemplo.
+você pode usar o arquivo "smart_vector_v02.c" como um complemento de qualquer outro código, nesse exemplo o arquivo principal sera o "main_v02.c".
+então o compilação seria assim.
+
+clang main_v02.c smart_vector_v02.c -o main
+
+no caso seria:
+<nome do compilador> <nome do arquivo principal> <nome do arquivo segundario> -o <nome do arquivo executavel>
+
+para executar o arquivo compilado é
+Linux: ./main
+Windows: main
+
+tenha um excelente dia!
