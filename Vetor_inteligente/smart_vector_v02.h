@@ -1,5 +1,5 @@
-#ifndef smart_vector_h
-#define smart_vector_h
+#ifndef smart_vector_v02_h
+#define smart_vector_v02_h
 
 typedef struct {
     double *lista;
